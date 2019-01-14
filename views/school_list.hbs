@@ -1,0 +1,10 @@
+<ul>
+    {{#if school_list}}
+    {{#each school_list}}
+    <li>{{school}}</li>
+    {{/each}}
+    {{else}}
+        <h1>No Schools In Database</h1>
+    {{/if}}
+</ul>
+<a href="/catalog/School/create">Add A School</a>
